@@ -45,4 +45,8 @@ A switch statement is used to execute the corresponding functionality based on t
 
 This code effectively provides a user-friendly menu for interacting with a linked list, allowing the user to create, insert, delete, search, and display elements in the list until they choose to exit.
 
+<img width="594" alt="Screenshot 2023-10-10 at 10 15 28 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/5dbe3fc0-981e-45dc-87b5-f32f21e0f074">
+
+<img width="594" alt="Screenshot 2023-10-10 at 10 15 51 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/6dbe2255-59c8-4283-8d86-4fac56c687a0">
+
 
