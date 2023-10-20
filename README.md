@@ -1,52 +1,37 @@
 # Assignment-2 CS303
 
-**Initialization**
-- The code begins by including the "func.h" header file, which presumably contains the List class definition. It also defines the main function.
-**List Instance**
-- It creates an instance of the List class named 'l'. This instance will be used to perform various operations on a linked list.
-**Menu Loop**
-- The program enters an infinite loop using while(1). This loop will keep running until the user chooses to exit. The purpose of this loop is to display a menu and perform actions based on the user's selection.
-- 
-**Menu Display**
-- Inside the loop, the program displays a menu with the following options for the user to choose from:
-  
-"1: Create" (to create a new element in the list)
+- Building a string-specific instance of the SingleLinkedList class. A list of string items will be managed using this.
+**On the my_list, several operations are carried out:**
+- Add "Matt" to the front of the list.
+- Add "Bradley" to the front of the list.
+- Add "Mahomes" to the end of the list.
+- Add "Jaden" to the end of the list.
+- Insert "Mohamed" at position 2 in the list.
+- Display the first and last items in the list. In this case, it shows the items "Bradley" and "Jaden".
+- Remove the first item from the list.
+- Remove the last item from the list.
+- Remove the item at position 2 (which is "Mohamed") from the list.
+- Display the first and last items in the modified list. In this case, it shows the items "Matt" and "Mahomes".
+- Attempt to find the string "Mohamed" in the list. Since "Mohamed" was removed earlier, this operation will not find "Mohamed." The result is stored in the index variable.
+The code then checks if index is less than or equal to my_list.find("Mohamed") (which would be the number of items in the list if "Mohamed" were not found). It prints whether "Mohamed" was found in the list or not. In this case, it will print that "Mohamed was found in the list."
 
-"2: Insert" (to insert an element into the list)
+**The code then proceeds to "Part 2," which simulates professional and non-professional employees:**
+- It creates an instance of a professional employee (Professional employeePro) and displays their weekly salary and weekly healthcare cost, as well as the vacation days they earned.
+- It prompts the user to enter the number of hours worked by a non-professional employee (Nonprofessional employeeNon) and then displays their weekly salary, weekly healthcare cost, and the vacation days they earned.
+- Then it finally exits the program.
 
-"3: Delete" (to delete an element from the list)
+In summary, the code demonstrates operations on a linked list of strings and includes a simulation of professional and non-professional employees with salary, healthcare cost, and vacation day calculations.
 
-"4: Find" (to search for an element in the list)
+<img width="638" alt="Screenshot 2023-10-19 at 9 50 39 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/a54ddb59-8632-407e-9e2e-2f07b6941966">
 
-"5: Display" (to show the elements in the list)
+<img width="635" alt="Screenshot 2023-10-19 at 9 50 47 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/61bd58d5-943a-4ef0-bea5-e068ee6ca51c">
 
-"6: Exit" (to exit the program)
+<img width="637" alt="Screenshot 2023-10-19 at 9 51 01 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/6e3a4a2f-35b0-477e-ab9e-fa11589e5bb2">
 
-A switch statement is used to execute the corresponding functionality based on the user's choice. The user's choice is compared to the cases in the switch statement.
-
-**Case 1 (Create):**
-- If the user selects "1: Create," the program calls the 'create' function, which is expected to create a new element in the linked list.
-  
-**Case 2 (Insert):**
-- If the user selects "2: Insert," the program calls the 'insert' function, which is expected to insert an element into the linked list.
-  
-**Case 3 (Delete):**
-- If the user selects "3: Delete," the program calls the 'delet' function, which is expected to delete an element from the linked list.
-  
-**Case 4 (Find):**
-- If the user selects "4: Find," the program calls the 'search' function, which is expected to search for an element in the linked list.
-  
-**Case 5 (Display):**
-- If the user selects "5: Display," the program calls the 'display' function, which is expected to display the elements in the linked list.
-  
-**Case 6 (Exit):**
-- If the user selects "6: Exit," the program immediately exits by returning 0, ending the program.
+<img width="635" alt="Screenshot 2023-10-19 at 9 51 26 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/f548d7e1-d9de-4eda-ad62-729924ae202b">
 
 
-This code effectively provides a user-friendly menu for interacting with a linked list, allowing the user to create, insert, delete, search, and display elements in the list until they choose to exit.
 
-<img width="594" alt="Screenshot 2023-10-10 at 10 15 28 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/5dbe3fc0-981e-45dc-87b5-f32f21e0f074">
 
-<img width="594" alt="Screenshot 2023-10-10 at 10 15 51 PM" src="https://github.com/mohamede2022/Assignment-2-CS303/assets/113187159/6dbe2255-59c8-4283-8d86-4fac56c687a0">
 
 
